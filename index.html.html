@@ -1,0 +1,109 @@
+<html>
+        <head><title>Downloaded HTML</title></head>
+        <body>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;">Welcome! This is an offline-capable, no-frills Notepad that is also a Progressive Web App (PWA).
+
+The app offers the following set of features:
+
+- Your notes are saved in real-time as you type.
+- Installable on supported browsers for offline usage.
+- "Add To Home Screen" feature on Android-supported devices to launch the app from the home screen.
+- Dark mode.
+- Privacy-focused - Never collects your precious data.
+- Light-weight - Loads almost instantly.
+- Writing timer.
+- View Note Statistics.
+- Snapshots.
+- Ability to mimic typewriter sound when typing.
+- Optional break reminders after long writing sessions.
+- Keyboard shortcuts for common actions.
+- Focus mode to leave you with a barebones and pristine editor.
+- Full-screen mode for a distraction-free writing experience.
+- Floating window (in supported browsers) to effectively take notes across other apps.
+- Download notes as plain text, PDF, HTML, and DOCX file.
+- Ability to play 20+ ambient sounds to help you focus.
+- It's proudly open-source!
+
+CAUTION: Since the app uses the browser's localStorage to store your notes, 
+it's recommended that you take a backup of your notes more often using the 
+"Download Notes" button or by pressing the "ctrl/command + s" keys.
+
+Lastly, if you're using Notepad, and want to support the development, 
+you can buy me a coffee — the link of which is available in the About section.
+
+** Delete this text and start writing your notes **<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #eef7ff;
+  padding: 30px;
+}
+
+button {
+  background: #3b82c4;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.popup {
+  display: none;
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px #c5d9ee;
+  animation: muncul 0.4s;
+}
+
+@keyframes muncul {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>🧠 Kenali Emosi</h1>
+
+<button onclick="bukaPopup()">
+  😡 Kenali Emosi Marah
+</button>
+
+<div class="popup" id="popup">
+  <h2>😡 Apabila Saya Marah</h2>
+  <p>1. Berhenti seketika.</p>
+  <p>2. Tarik nafas perlahan-lahan.</p>
+  <p>3. Fikir sebelum bertindak.</p>
+
+  <button onclick="tutupPopup()">Tutup ✕</button>
+</div>
+
+<script>
+function bukaPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function tutupPopup() {
+  document.getElementById("popup").style.display = "none";
+}
+</script>
+
+</body>
+</html></pre>
+        </body>
+    </html>
